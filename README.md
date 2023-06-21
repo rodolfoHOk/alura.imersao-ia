@@ -64,6 +64,36 @@
 
 - Calcule a média salarial de pessoas com o Google Sheets e o ChatGPT
   Usando a função GPT_LIST() do SheetGPT, gere 20 nomes de pessoas brasileiras na coluna A, a área de atuação dessas pessoas (como "Marketing", "TI", "Direito" ou "Saúde") na coluna B e 20 valores aleatórios de salário entre 1.000 e 20.000 na coluna C. Agora, peça ao ChatGPT para criar uma macro para o Google Sheets que calcule a média desses salários e mostre a resposta na célula D2.
+  
+## AULA 03 - ENGENHARIA DE PROMPT PARA TAREFAS COMPLEXAS
+
+> Vamos mergulhar em engenharia de prompts e apresentar as principais técnicas utilizadas nesse processo. Além disso, iremos explorar o funcionamento do algoritmo do ChatGPT para que você possa adquirir domínio sobre essa ferramenta.
+
+### Prompts da aula
+
+- Vamos simular o funcionamento do ChatGPT. Para cada frase que você escrever no prompt, você deve listar as 5 palavras com maior probabilidade de completá-la, juntamente com a probabilidade de cada uma delas. Apenas as palavras e probabilidades, sem mais nada, certo?
+- Resuma em português este texto.
+- Crie um texto para LinkedIn para divulgar a Imersão em IA da Alura.
+- Pergunta: Um diretor de cinema já dirigiu 16 filmes. Metade dos filmes que ele dirigiu são de ação, e metade dos filmes de ação conta com a participação do Nicolas Cage. Quantos filmes de ação com a participação do Nicolas Cage ele dirigiu? Resposta: A resposta em números é...
+
+### Links utilizados na aula
+
+- Link para o [ChatGPT](https://openai.com/blog/chatgpt)
+- Ferramenta IA para otimizar o seu uso do Linkedin: [Engage-AI](https://engage-ai.co/)
+- Link para o [Hipsters ponto tech](https://www.hipsters.tech/chatgpt-transformers-e-redes-neurais-hipsters-ponto-tech-352/)
+- Link para o Artigo: [Whats is ChatGPT Doing… and why does it work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+- Link para o Artigo: [Large Language Models are zero-shot reasoners](https://arxiv.org/abs/2205.11916)
+- Link para o Artigo: [Language Models Perform Reasoning via Chain of Thought](https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html)
+- Link para o Artigo: [Melhores práticas de uso do GPT](https://platform.openai.com/docs/guides/gpt-best-practices)
+- Link para o Artigo: [Maieutic prompting (Técnica maiêutica)](https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md#maieutic-prompting)
+- Link para o Artigo: [Chain-of-thought Prompting Elicits Reasoning in LLM](https://arxiv.org/abs/2201.11903)
+
+### Desafios do dia
+- Explorando as respostas do ChatGPT
+Teste as respostas do ChatGPT quando você faz perguntas curtas, sem dar exemplos, e quando você elabora mais a pergunta, fornecendo um ou mais exemplos.
+
+- Calculando Imposto com ChatGPT: Cadeia de Raciocínio e Valores da Planilha
+Utilize a lista de valores da planilha e o método Chain-of-Thought (Cadeia de raciocínio) no ChatGPT para obter o cálculo do valor do imposto a ser arrecadado. Considere que pessoas com rendimento de até R$20.000,00 pagam 10% de imposto, pessoas com rendimento entre R$20.000,00 e R$40.000,00 pagam 20% de imposto, e pessoas com rendimento acima de R$40.000,00 pagam 30% de imposto.
 
 ## Notion Guia de Mergulho
 
