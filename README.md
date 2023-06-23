@@ -95,6 +95,44 @@ Teste as respostas do ChatGPT quando você faz perguntas curtas, sem dar exemplo
 - Calculando Imposto com ChatGPT: Cadeia de Raciocínio e Valores da Planilha
 Utilize a lista de valores da planilha e o método Chain-of-Thought (Cadeia de raciocínio) no ChatGPT para obter o cálculo do valor do imposto a ser arrecadado. Considere que pessoas com rendimento de até R$20.000,00 pagam 10% de imposto, pessoas com rendimento entre R$20.000,00 e R$40.000,00 pagam 20% de imposto, e pessoas com rendimento acima de R$40.000,00 pagam 30% de imposto.
 
+## AULA 04 - TAREFAS EM PLANILHAS COM IA E APIS
+
+> Vamos mergulhar em um mundo de possibilidades ao explorar ferramentas de inteligência artificial que vão te ajudar no seu trabalho do dia a dia com planilhas e macros. E não para por aí! Você também conhecerá sobre os parâmetros usados para calibrar e controlar o GPT, e aprenderá como criar a sua própria ferramenta utilizando a API do GPT, uma técnica que te permitirá juntar diferentes recursos para automatizar tarefas e otimizar o seu trabalho.
+
+### Prompts da aula
+
+- Tenho uma planilha no Google Sheets com notas de alunos. Na coluna A está o nome do aluno e na coluna B a nota. Crie uma fórmula para filtrar os alunos com nota acima de 7.
+- Tenho uma planilha no Google Sheets com uma lista de alunos e as notas de cada aluno em 4 diferentes provas. Quero uma função em App Script para calcular a nota final do aluno. Ela recebe as 4 notas das provas e devolve uma nota com o seguinte critério: Se o aluno tirou algum zero a nota final é 0; Senão a nota final é a média das 3 maiores notas.
+- Escreva um email para um aluno de física para apresentar a nota dele no semestre. Nome: Marcelo Barbosa; Nota: 8,8.
+
+### Links citados
+- Link da ferramenta: [Script](https://www.google.com/script/start/)
+- Link da ferramenta: [ChatGPT](https://chat.openai.com/)
+- Link para a [OpenAI](https://openai.com/)
+- Link da ferramenta: [Eightify](https://eightify.app/)
+- Link da ferramenta: [Gamma](https://gamma.app/)
+- Link da ferramenta: [Jasper](https://www.jasper.ai/free-trial?_from=ads&fp_sid=1-g-Cj0KCQjwnMWkBhDLARIsAHBOftp3-2_GQsww0SIqFbn0x56rZWHUlJDDIFeF8UskgLWHk9we0Us-dKAaAsk1EALw_wcB)
+- Link para a [Planilha de notas](https://docs.google.com/spreadsheets/d/1jMZToQ1y5aThfBIG8U8H00V4CEdujRgn4hmuiXjjy5A/edit?usp=sharing) (Lembre-se de fazer uma cópia da planilha para conseguir editar)
+- Link para o [Playground da OpenAI](http://platform.openai.com/)
+- Link para o [GPT Tokenizer](https://gpt-tokenizer.dev/)
+- Link para o [Código para gerar um email com a API do GPT](https://gist.github.com/sergiolopes/faf25d8781f4340edfc65a11b37ceb60)
+- Link para a ferramenta: [ElevenLabs](https://elevenlabs.io/)
+- Link para a ferramenta: [Whisper](https://huggingface.co/spaces/openai/whisper)
+- Link para o conteúdo apresentado na live: [7 ferramentas de IA além do chatGPT](https://docs.google.com/presentation/d/1YWqJEKJxJToQNFKL-vpQ26ojem2oV60sxnD4TtB4dq0/edit?usp=sharing)
+
+### Desafios do dia
+1. Tokenização: Explorando o GPT-Tokenizer e o ChatGPT
+
+Peça para o ChatGPT padrão gerar um texto curto sobre um assunto de seu interesse. Em seguida, acesse a página do GPT-Tokenizer, cole esse texto e observe como o modelo do GPT separa as palavras para gerar 'x' tokens.
+
+2. Playground OpenAI: Brincando com Modelos e Temperaturas no Modo Chat
+
+Crie uma conta na OpenAI, acesse o Playground, selecione o modo 'Chat' e experimente com os diferentes modelos e temperaturas. Gere o mesmo texto em diferentes temperaturas e analise as diferenças entre elas.
+
+3. Gerando Mensagens com base em Notas dos Alunos: Usando a API_KEY
+
+Usando o código do Sérgio e a sua API_KEY, faça a alteração no campo "content:" de 'role: "system"' no código, com o objetivo de gerar uma mensagem personalizada e carinhosa para cada aluno(a), com base na nota que ele(a) recebeu.
+
 ## Notion Guia de Mergulho
 
 [Link](https://grupoalura.notion.site/Imers-o-Intelig-ncia-Artificial-IA-Guia-do-Mergulho-dec0aacfadeb45039f0424a27b5c51eb)
